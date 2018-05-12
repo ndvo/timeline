@@ -1,0 +1,133 @@
+
+digraph {
+	/*rankdir=LR;*/
+	concentrate = True;
+	node[shape=plaintext,fontsize=16];
+
+
+{node[shape=plaintext, fontsize=20]
+	1723->1759->1772->1774->1776->1790->1806->1810->1811->1815->1817->1818->1823->1825->1843->1846->1848->1852->1859->1861->1867->1869->1871->1873->1883
+}
+	{/*Obras*/
+	node[shape=box];
+	"Teoria dos Sentimentos Morais";
+	"A riqueza das Nações";
+	"The High Price of Bullion, a Proof of the Depreciation of Bank Notes";
+	"Essay on the Influence of a Low Price of Corn on the Profit of Stock";
+	"On the Principles of Political Economy and Taxation";
+	"Sistema de Lógica Dedutiva";
+	"Princípios de Economia Política";
+	"A Liberdade";
+	"Utilitarismo";
+	"O Governo Representativo";
+	"Sujeição das mulheres";
+	"A questão judaica";
+	"A Ideologia Alemã";
+	"O Manifesto do Partido Comunista";
+	"O 18 brumário de Luís Bonaparte";
+	"O Capital";
+	"A guerra civil na França";
+	}
+
+
+"✩ Adam Smith"->"Teoria dos Sentimentos Morais"[style=dotted,color=blue,arrowhead=none];
+"Teoria dos Sentimentos Morais"->"A riqueza das Nações"[style=dotted,color=blue,arrowhead=none];
+"✩ David Ricardo"->"The High Price of Bullion, a Proof of the Depreciation of Bank Notes"[style=dotted,color=blue,arrowhead=none];
+"A riqueza das Nações"->"✝ Adam Smith"[style=dotted,color=blue];
+"The High Price of Bullion, a Proof of the Depreciation of Bank Notes"->"Essay on the Influence of a Low Price of Corn on the Profit of Stock"[style=dotted,color=blue,arrowhead=none];
+"Essay on the Influence of a Low Price of Corn on the Profit of Stock"->"On the Principles of Political Economy and Taxation"[style=dotted,color=blue,arrowhead=none];
+"✩ John Stuart Mill"->"Sistema de Lógica Dedutiva"[style=dotted,color=blue,arrowhead=none];
+"On the Principles of Political Economy and Taxation"->"✝ David Ricardo"[style=dotted,color=blue];
+"Sistema de Lógica Dedutiva"->"Princípios de Economia Política"[style=dotted,color=blue,arrowhead=none];
+"Princípios de Economia Política"->"A Liberdade"[style=dotted,color=blue,arrowhead=none];
+"A Liberdade"->"Utilitarismo"[style=dotted,color=blue,arrowhead=none];
+"Utilitarismo"->"O Governo Representativo"[style=dotted,color=blue,arrowhead=none];
+"O Governo Representativo"->"Sujeição das mulheres"[style=dotted,color=blue,arrowhead=none];
+"✩ Karl Marx"->"A questão judaica"[style=dotted,color=blue,arrowhead=none];
+"Sujeição das mulheres"->"✝ John Stuart Mill"[style=dotted,color=blue];
+"A questão judaica"->"A Ideologia Alemã"[style=dotted,color=blue,arrowhead=none];
+"A Ideologia Alemã"->"O Manifesto do Partido Comunista"[style=dotted,color=blue,arrowhead=none];
+"O Manifesto do Partido Comunista"->"O 18 brumário de Luís Bonaparte"[style=dotted,color=blue,arrowhead=none];
+"O 18 brumário de Luís Bonaparte"->"O Capital"[style=dotted,color=blue,arrowhead=none];
+"O Capital"->"A guerra civil na França"[style=dotted,color=blue,arrowhead=none];
+"A guerra civil na França"->"✝ Karl Marx"[style=dotted,color=blue];
+
+ {rank=same;
+1806;"✩ John Stuart Mill" ;
+}
+{rank=same;
+1810;"The High Price of Bullion, a Proof of the Depreciation of Bank Notes" ;
+}
+{rank=same;
+1815;"Essay on the Influence of a Low Price of Corn on the Profit of Stock" ;
+}
+{rank=same;
+1817;"On the Principles of Political Economy and Taxation" ;
+}
+{rank=same;
+1818;"✩ Karl Marx" ;
+}
+{rank=same;
+1823;"✝ David Ricardo" ;
+}
+{rank=same;
+1843;"Sistema de Lógica Dedutiva" "A questão judaica" ;
+}
+{rank=same;
+1846;"A Ideologia Alemã" ;
+}
+{rank=same;
+1848;"Princípios de Economia Política" "O Manifesto do Partido Comunista" ;
+}
+{rank=same;
+1723;"✩ Adam Smith" ;
+}
+{rank=same;
+1852;"O 18 brumário de Luís Bonaparte" ;
+}
+{rank=same;
+1859;"A Liberdade" ;
+}
+{rank=same;
+1861;"Utilitarismo" "O Governo Representativo" ;
+}
+{rank=same;
+1867;"O Capital" ;
+}
+{rank=same;
+1869;"Sujeição das mulheres" ;
+}
+{rank=same;
+1871;"A guerra civil na França" ;
+}
+{rank=same;
+1873;"✝ John Stuart Mill" ;
+}
+{rank=same;
+1883;"✝ Karl Marx" ;
+}
+{rank=same;
+1759;"Teoria dos Sentimentos Morais" ;
+}
+{rank=same;
+1772;"✩ David Ricardo" ;
+}
+{rank=same;
+1776;"A riqueza das Nações" ;
+}
+{rank=same;
+1790;"✝ Adam Smith" ;
+}
+{rank=same;
+1861;"Guerra Civil Americana"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1774;"Barco a vapor"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1811;"Prensa a vapor"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1825;"Linha Férrea"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+}

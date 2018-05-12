@@ -1,0 +1,61 @@
+
+digraph {
+	/*rankdir=LR;*/
+	concentrate = True;
+	node[shape=plaintext,fontsize=16];
+
+
+{node[shape=plaintext, fontsize=20]
+	1890->1891->1903->1913->1914->1930->1931->1933->1934->1935->1936
+}
+	{/*Obras*/
+	node[shape=box];
+	"Comissão Permanente de Padronização";
+	"Comissão Permanente de Compras";
+	"Comissão Especial do Legislativo e do Executivo";
+	"Constituição do Estados Unidos do Brasil";
+	}
+
+
+"✩ Getúlio Vargas - Governo Provisório"->"Comissão Permanente de Padronização"[style=dotted,color=blue,arrowhead=none];
+"Comissão Permanente de Padronização"->"Comissão Permanente de Compras"[style=dotted,color=blue,arrowhead=none];
+"✩ Getúlio Vargas - Governo Constitucional"->"Comissão Especial do Legislativo e do Executivo"[style=dotted,color=blue,arrowhead=none];
+"Comissão Permanente de Compras"->"✝ Getúlio Vargas - Governo Provisório"[style=dotted,color=blue];
+"✩ Manoel Deodoro da Fonseca"->"Constituição do Estados Unidos do Brasil"[style=dotted,color=blue,arrowhead=none];
+"Comissão Especial do Legislativo e do Executivo"->"✝ Getúlio Vargas - Governo Constitucional"[style=dotted,color=blue];
+"Constituição do Estados Unidos do Brasil"->"✝ Manoel Deodoro da Fonseca"[style=dotted,color=blue];
+
+ {rank=same;
+1890;"✩ Manoel Deodoro da Fonseca" "Constituição do Estados Unidos do Brasil" ;
+}
+{rank=same;
+1891;"✝ Manoel Deodoro da Fonseca" ;
+}
+{rank=same;
+1930;"✩ Getúlio Vargas - Governo Provisório" "Comissão Permanente de Padronização" ;
+}
+{rank=same;
+1931;"Comissão Permanente de Compras" ;
+}
+{rank=same;
+1933;"✝ Getúlio Vargas - Governo Provisório" ;
+}
+{rank=same;
+1934;"✩ Getúlio Vargas - Governo Constitucional" ;
+}
+{rank=same;
+1935;"Comissão Especial do Legislativo e do Executivo" ;
+}
+{rank=same;
+1936;"✝ Getúlio Vargas - Governo Constitucional" ;
+}
+{rank=same;
+1914;"I Guerra Mundial"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1903;"Avião"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1913;"Linha de Montagem Ford T"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+}

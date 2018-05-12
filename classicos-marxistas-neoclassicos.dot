@@ -1,0 +1,265 @@
+
+digraph {
+	/*rankdir=LR;*/
+	concentrate = True;
+	node[shape=plaintext,fontsize=16];
+
+
+{node[shape=plaintext, fontsize=20]
+	1723->1759->1772->1774->1776->1790->1806->1810->1811->1815->1817->1818->1823->1825->1834->1835->1840->1842->1843->1846->1848->1852->1859->1861->1863->1864->1865->1867->1869->1870->1871->1873->1874->1875->1876->1878->1879->1879.1->1880->1882->1883->1884->1885->1888->1890->1892->1903->1910->1913->1914->1919->1921->1924
+}
+	{/*Obras*/
+	node[shape=box];
+	"Teoria dos Sentimentos Morais";
+	"A riqueza das Nações";
+	"The High Price of Bullion, a Proof of the Depreciation of Bank Notes";
+	"Essay on the Influence of a Low Price of Corn on the Profit of Stock";
+	"On the Principles of Political Economy and Taxation";
+	"Sistema de Lógica Dedutiva";
+	"Princípios de Economia Política";
+	"A Liberdade";
+	"Utilitarismo";
+	"O Governo Representativo";
+	"Sujeição das mulheres";
+	"A questão judaica";
+	"A Ideologia Alemã";
+	"O Manifesto do Partido Comunista";
+	"O 18 brumário de Luís Bonaparte";
+	"O Capital";
+	"A guerra civil na França";
+	"Elementos de Economia Pura";
+	"General Mathematical Theory of Political Economy";
+	"A Serious Fall in the Value of Gold, Edward Stanford.";
+	"Pure Logic; or, the Logic of Quality apart from Quantity";
+	"The Coal Question";
+	"The Substitution of Similars, The True Principle of Reasoning";
+	"Elementary Lessons on Logic";
+	"The Theory of Political Economy";
+	"Principles of Science";
+	"Money and the Mechanism of Exchange";
+	"A Primer on Political Economy";
+	"Studies in Deductive Logic";
+	"The State in Relation to Labour";
+	"Principles of Economics¹";
+	"Investigations into the Method of the Social Sciences with Special Reference to Economics";
+	"The Errors of Historicism in German Economics";
+	"The Theory of Capital";
+	"Money";
+	"The Economics of Industry (with Mary Paley Marshall)";
+	"The Pure Theory of Foreign Trade: The Pure Theory of Domestic Values";
+	"Principles of Economics";
+	"Industry and Trade";
+	}
+
+
+"✩ Adam Smith"->"Teoria dos Sentimentos Morais"[style=dotted,color=blue,arrowhead=none];
+"Teoria dos Sentimentos Morais"->"A riqueza das Nações"[style=dotted,color=blue,arrowhead=none];
+"✩ David Ricardo"->"The High Price of Bullion, a Proof of the Depreciation of Bank Notes"[style=dotted,color=blue,arrowhead=none];
+"A riqueza das Nações"->"✝ Adam Smith"[style=dotted,color=blue];
+"The High Price of Bullion, a Proof of the Depreciation of Bank Notes"->"Essay on the Influence of a Low Price of Corn on the Profit of Stock"[style=dotted,color=blue,arrowhead=none];
+"Essay on the Influence of a Low Price of Corn on the Profit of Stock"->"On the Principles of Political Economy and Taxation"[style=dotted,color=blue,arrowhead=none];
+"✩ John Stuart Mill"->"Sistema de Lógica Dedutiva"[style=dotted,color=blue,arrowhead=none];
+"On the Principles of Political Economy and Taxation"->"✝ David Ricardo"[style=dotted,color=blue];
+"Sistema de Lógica Dedutiva"->"Princípios de Economia Política"[style=dotted,color=blue,arrowhead=none];
+"Princípios de Economia Política"->"A Liberdade"[style=dotted,color=blue,arrowhead=none];
+"A Liberdade"->"Utilitarismo"[style=dotted,color=blue,arrowhead=none];
+"Utilitarismo"->"O Governo Representativo"[style=dotted,color=blue,arrowhead=none];
+"O Governo Representativo"->"Sujeição das mulheres"[style=dotted,color=blue,arrowhead=none];
+"✩ Karl Marx"->"A questão judaica"[style=dotted,color=blue,arrowhead=none];
+"Sujeição das mulheres"->"✝ John Stuart Mill"[style=dotted,color=blue];
+"A questão judaica"->"A Ideologia Alemã"[style=dotted,color=blue,arrowhead=none];
+"A Ideologia Alemã"->"O Manifesto do Partido Comunista"[style=dotted,color=blue,arrowhead=none];
+"O Manifesto do Partido Comunista"->"O 18 brumário de Luís Bonaparte"[style=dotted,color=blue,arrowhead=none];
+"O 18 brumário de Luís Bonaparte"->"O Capital"[style=dotted,color=blue,arrowhead=none];
+"O Capital"->"A guerra civil na França"[style=dotted,color=blue,arrowhead=none];
+"✩ Léon Walras"->"Elementos de Economia Pura"[style=dotted,color=blue,arrowhead=none];
+"A guerra civil na França"->"✝ Karl Marx"[style=dotted,color=blue];
+"✩ William Stanley Jevons"->"General Mathematical Theory of Political Economy"[style=dotted,color=blue,arrowhead=none];
+"Elementos de Economia Pura"->"✝ Léon Walras"[style=dotted,color=blue];
+"General Mathematical Theory of Political Economy"->"A Serious Fall in the Value of Gold, Edward Stanford."[style=dotted,color=blue,arrowhead=none];
+"A Serious Fall in the Value of Gold, Edward Stanford."->"Pure Logic; or, the Logic of Quality apart from Quantity"[style=dotted,color=blue,arrowhead=none];
+"Pure Logic; or, the Logic of Quality apart from Quantity"->"The Coal Question"[style=dotted,color=blue,arrowhead=none];
+"The Coal Question"->"The Substitution of Similars, The True Principle of Reasoning"[style=dotted,color=blue,arrowhead=none];
+"The Substitution of Similars, The True Principle of Reasoning"->"Elementary Lessons on Logic"[style=dotted,color=blue,arrowhead=none];
+"Elementary Lessons on Logic"->"The Theory of Political Economy"[style=dotted,color=blue,arrowhead=none];
+"The Theory of Political Economy"->"Principles of Science"[style=dotted,color=blue,arrowhead=none];
+"Principles of Science"->"Money and the Mechanism of Exchange"[style=dotted,color=blue,arrowhead=none];
+"Money and the Mechanism of Exchange"->"A Primer on Political Economy"[style=dotted,color=blue,arrowhead=none];
+"A Primer on Political Economy"->"Studies in Deductive Logic"[style=dotted,color=blue,arrowhead=none];
+"Studies in Deductive Logic"->"The State in Relation to Labour"[style=dotted,color=blue,arrowhead=none];
+"✩ Carl Menger"->"Principles of Economics¹"[style=dotted,color=blue,arrowhead=none];
+"The State in Relation to Labour"->"✝ William Stanley Jevons"[style=dotted,color=blue];
+"Principles of Economics¹"->"Investigations into the Method of the Social Sciences with Special Reference to Economics"[style=dotted,color=blue,arrowhead=none];
+"Investigations into the Method of the Social Sciences with Special Reference to Economics"->"The Errors of Historicism in German Economics"[style=dotted,color=blue,arrowhead=none];
+"The Errors of Historicism in German Economics"->"The Theory of Capital"[style=dotted,color=blue,arrowhead=none];
+"The Theory of Capital"->"Money"[style=dotted,color=blue,arrowhead=none];
+"✩ Alfred Marshall"->"The Economics of Industry (with Mary Paley Marshall)"[style=dotted,color=blue,arrowhead=none];
+"Money"->"✝ Carl Menger"[style=dotted,color=blue];
+"The Economics of Industry (with Mary Paley Marshall)"->"The Pure Theory of Foreign Trade: The Pure Theory of Domestic Values"[style=dotted,color=blue,arrowhead=none];
+"The Pure Theory of Foreign Trade: The Pure Theory of Domestic Values"->"Principles of Economics"[style=dotted,color=blue,arrowhead=none];
+"Principles of Economics"->"Industry and Trade"[style=dotted,color=blue,arrowhead=none];
+"Industry and Trade"->"✝ Alfred Marshall"[style=dotted,color=blue];
+
+ {rank=same;
+1921;"✝ Carl Menger" ;
+}
+{rank=same;
+1924;"✝ Alfred Marshall" ;
+}
+{rank=same;
+1806;"✩ John Stuart Mill" ;
+}
+{rank=same;
+1810;"The High Price of Bullion, a Proof of the Depreciation of Bank Notes" ;
+}
+{rank=same;
+1815;"Essay on the Influence of a Low Price of Corn on the Profit of Stock" ;
+}
+{rank=same;
+1817;"On the Principles of Political Economy and Taxation" ;
+}
+{rank=same;
+1818;"✩ Karl Marx" ;
+}
+{rank=same;
+1823;"✝ David Ricardo" ;
+}
+{rank=same;
+1879.1;"The Pure Theory of Foreign Trade: The Pure Theory of Domestic Values" ;
+}
+{rank=same;
+1834;"✩ Léon Walras" ;
+}
+{rank=same;
+1835;"✩ William Stanley Jevons" ;
+}
+{rank=same;
+1840;"✩ Carl Menger" ;
+}
+{rank=same;
+1842;"✩ Alfred Marshall" ;
+}
+{rank=same;
+1843;"Sistema de Lógica Dedutiva" "A questão judaica" ;
+}
+{rank=same;
+1846;"A Ideologia Alemã" ;
+}
+{rank=same;
+1848;"Princípios de Economia Política" "O Manifesto do Partido Comunista" ;
+}
+{rank=same;
+1723;"✩ Adam Smith" ;
+}
+{rank=same;
+1852;"O 18 brumário de Luís Bonaparte" ;
+}
+{rank=same;
+1859;"A Liberdade" "General Mathematical Theory of Political Economy" ;
+}
+{rank=same;
+1861;"Utilitarismo" "O Governo Representativo" ;
+}
+{rank=same;
+1863;"A Serious Fall in the Value of Gold, Edward Stanford." ;
+}
+{rank=same;
+1864;"Pure Logic; or, the Logic of Quality apart from Quantity" ;
+}
+{rank=same;
+1865;"The Coal Question" ;
+}
+{rank=same;
+1867;"O Capital" ;
+}
+{rank=same;
+1869;"Sujeição das mulheres" "The Substitution of Similars, The True Principle of Reasoning" ;
+}
+{rank=same;
+1870;"Elementary Lessons on Logic" ;
+}
+{rank=same;
+1871;"A guerra civil na França" "The Theory of Political Economy" "Principles of Economics¹" ;
+}
+{rank=same;
+1873;"✝ John Stuart Mill" ;
+}
+{rank=same;
+1874;"Elementos de Economia Pura" "Principles of Science" ;
+}
+{rank=same;
+1875;"Money and the Mechanism of Exchange" ;
+}
+{rank=same;
+1878;"A Primer on Political Economy" ;
+}
+{rank=same;
+1879;"The Economics of Industry (with Mary Paley Marshall)" ;
+}
+{rank=same;
+1880;"Studies in Deductive Logic" ;
+}
+{rank=same;
+1882;"✝ William Stanley Jevons" "The State in Relation to Labour" ;
+}
+{rank=same;
+1883;"✝ Karl Marx" "Investigations into the Method of the Social Sciences with Special Reference to Economics" ;
+}
+{rank=same;
+1884;"The Errors of Historicism in German Economics" ;
+}
+{rank=same;
+1759;"Teoria dos Sentimentos Morais" ;
+}
+{rank=same;
+1888;"The Theory of Capital" ;
+}
+{rank=same;
+1890;"Principles of Economics" ;
+}
+{rank=same;
+1892;"Money" ;
+}
+{rank=same;
+1772;"✩ David Ricardo" ;
+}
+{rank=same;
+1776;"A riqueza das Nações" ;
+}
+{rank=same;
+1910;"✝ Léon Walras" ;
+}
+{rank=same;
+1790;"✝ Adam Smith" ;
+}
+{rank=same;
+1919;"Industry and Trade" ;
+}
+{rank=same;
+1861;"Guerra Civil Americana"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1914;"I Guerra Mundial"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1774;"Barco a vapor"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1811;"Prensa a vapor"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1825;"Linha Férrea"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1885;"Automóvel"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1903;"Avião"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1913;"Linha de Montagem Ford T"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+{rank=same;
+1876;"Telefone"[style=filled,shape=box,fontsize=20,fillcolor=gray,color=gray] ;
+}
+}
